@@ -45,7 +45,7 @@ public class CmdCalc{
                 break;
         }
 
-        Sytem.out.println("Bye-Bye :)");
+        System.out.println("Bye-Bye :)");
     }
 
     /**
@@ -73,14 +73,18 @@ public class CmdCalc{
       return diff;
     }
     
+    /**
+    * This method returns the products of multiplication
+    * @param x first operand
+    * @param y second operand
+    * @return product the result of multiplication
+    **/
     public static int multiply(int x, int y){
       
-      int poduct = x * y;
-      return poduct;
+      int product = x * y;
+      return product;
     }
 
-    
-=======
     /**
     * This method returns the result of a division of two numbers
     * @param x first operand 
@@ -92,5 +96,5 @@ public class CmdCalc{
         double quotient = x / y;
         return quotient;
     }
->>>>>>> first
+
 }
