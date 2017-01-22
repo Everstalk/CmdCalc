@@ -10,4 +10,6 @@ public class CmdCalc{
         int sum = x + y;
         return sum;
     }
+
+    
 }
