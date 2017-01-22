@@ -1,3 +1,10 @@
+/**
+* This class models a simple calculator that can perform the four major math 
+* operations including addition, subtraction, multiplication and division
+* @author Leon Ampah
+* @author Michael Saneke
+**/
+
 public class CmdCalc{
     
     public static void main(String []args){
@@ -22,12 +29,24 @@ public class CmdCalc{
         }
     }
 
+    /**
+    * This method finds the additive sum of two numbers
+    * @param x first operand
+    * @param y second operand
+    * @return sum result of addition
+    **/
     public static int add(int x, int y){
         
         int sum = x + y;
         return sum;
     }
-
+    
+    /**
+    * This method returns the result of a division of two numbers
+    * @param x first operand 
+    * @param y second operand
+    * @return quotient result of the dividde operation
+    **/
     public static double divide(int x, int y){
         
         double quotient = x / y;
