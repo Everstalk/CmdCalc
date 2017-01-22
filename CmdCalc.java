@@ -9,13 +9,15 @@ public class CmdCalc{
     
     public static void main(String args[]){
         
-        System.out.println("Welcome to the Cmd calculator application");
+        System.out.println("Welcome to the Cmd calculator application \n");
 
 
      
-        System.out.println("type add for addition \n subtract for subtraction \n multiply for multiplication");
+        System.out.println("type add for addition \n subtract for subtraction \n multiply for multiplication \n");
 
-        System.out.println("divide for division \n and exit to exit to app");
+        System.out.println("divide for division \n and exit to exit to app \n");
+
+          
 
         String operation = args[0];
         
@@ -26,25 +28,31 @@ public class CmdCalc{
             
             case "divide":
                 System.out.println("The quotient of the division is " + divide(x,y));
+                 System.out.println("\n");
             break;
             
             case "add":
                 System.out.println("The sum of the addition is " + add(x,y));
+                System.out.println("\n");
             break;
 
             case "subtract":
                 System.out.println("The difference of the subtraction is " + subtract(x,y));
+                System.out.println("\n");
             break;
 
             case "multiply":
                 System.out.println("The product of the multiplication is " + multiply(x,y));
+                System.out.println("\n");
             break;
 
             case "exit":
                 System.out.println("The app is exiting ...");
+                System.out.println("\n");
                 break;
         }
 
+      
         System.out.println("Bye-Bye :)");
     }
 
