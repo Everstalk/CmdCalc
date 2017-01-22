@@ -10,4 +10,10 @@ public class CmdCalc{
         int sum = x + y;
         return sum;
     }
+
+    public static double divide(int x, int y){
+        
+        double quotient = x / y;
+        return quotient;
+    }
 }
