@@ -52,7 +52,6 @@ public class CmdCalc{
                 break;
         }
 
-      
         System.out.println("Bye-Bye :)");
     }
 
